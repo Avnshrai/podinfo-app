@@ -172,7 +172,7 @@ spec:
                                 type: string
                               messages:
                                 items:
-                                  type: st[?12;4$yring
+                                  type: string
                                 type: array
                               remediation:
                                 description: Remediation provides description or links
