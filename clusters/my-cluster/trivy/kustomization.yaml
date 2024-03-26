@@ -1,8 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - trivy/namespace.yaml
-  - trivy/trivy-operator.yaml
+  - trivy/
 images:
   - name: ghcr.io/aquasecurity/trivy-operator
     newName: aquasecurity/trivy-operator
